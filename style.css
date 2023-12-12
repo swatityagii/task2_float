@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background-color: black;
+  color: grey;
+  width: 100%;
+  padding-top: 2.1vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+}
+img {
+  width: 100%;
+}
+.card {
+  width: 28.26vw;
+  margin-bottom: 3vh;
+}
+.headingm {
+  padding-left: 5vw;
+  gap: 0.5em;
+  padding-top: 7.5vh;
+  padding-bottom: 0.3vh;
+  clear: both;
+}
+.heading {
+  font-weight: 500;
+  opacity: 0.8;
+}
+.secondary_text {
+  color: #4e4d4d;
+  font-size: 21px;
+}
+.hr {
+  margin-left: 5.01vw;
+  margin-right: 5vw;
+  margin-top: 1vh;
+  margin-bottom: 3.5vh;
+  border-top: 1px solid rgb(237, 237, 241);
+}
+.hr2 {
+  margin-left: 5.01vw;
+  margin-right: 5vw;
+  border-top: 1px solid rgb(237, 237, 241);
+}
+.copyright {
+  margin-left: 5vw;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  opacity: 0.8;
+  clear: both;
+}
+.project_name {
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  color: #2f96e0;
+}
+.text {
+  opacity: 0.8;
+}
+.box {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  gap: 1.5vw;
+  margin-bottom: 4vh;
+  width: 90vw;
+  overflow: auto;
+}
+.card {
+  width: 28.26vw;
+  margin-bottom: 3vh;
+  float: left;
+}
+
+.hr2 {
+  clear: both;
+}
+@media screen and (min-width: 1801px) and (max-width: 2560px) {
+  .text,
+  .copyright {
+    font-size: 20px;
+    margin-top: 0.7vh;
+  }
+  .layout {
+    font-size: 24px;
+  }
+  .project_name {
+    font-size: 28px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .headingm {
+    gap: 0.6vw;
+  }
+  .secondary_text {
+    font-size: 28px;
+  }
+  .hr {
+    width: 90vw;
+  }
+  .card {
+    width: 29vw;
+  }
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
+    margin-right: 1.5vw;
+  }
+  .m2,
+  .m3,
+  .m4 {
+    margin-top: 4px;
+    font-size: 19px;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1800px) {
+  .text,
+  .copyright {
+    font-size: 16px;
+  }
+  .layout {
+    font-size: 21px;
+  }
+  .secondary_text {
+    font-size: 25px;
+  }
+  .hr {
+    width: 87.8vw;
+  }
+  .box {
+    gap: 2.1vw;
+  }
+  .card {
+    width: 29vw;
+  }
+  .hr {
+    gap: 1.5vw;
+    width: 90vw;
+  }
+  .project_name {
+    font-size: 25px;
+  }
+  .heading {
+    font-size: 37px;
+  }
+  .m2,
+  .m3,
+  .m4 {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
+    margin-right: 1.5vw;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .text,
+  .copyright {
+    font-size: 14px;
+  }
+  .card {
+    width: 29vw;
+  }
+  .layout {
+    font-size: 18px;
+  }
+  .hr {
+    width: 89.9vw;
+  }
+  .project_name {
+    font-size: 22px;
+  }
+  .heading {
+    font-size: 34px;
+  }
+  .secondary_text {
+    font-size: 22px;
+  }
+  .m2,
+  .m3,
+  .m4 {
+    margin-top: 4px;
+    font-size: 13px;
+  }
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
+    margin-right: 1.5vw;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+  .text,
+  .copyright {
+    font-size: 12px;
+  }
+  .secondary_text {
+    font-size: 20px;
+  }
+  .hr {
+    width: 90vw;
+  }
+  .card {
+    width: 29vw;
+  }
+  .layout {
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .project_name {
+    font-size: 20px;
+  }
+  .m2,
+  .m3,
+  .m4 {
+    margin-top: 3.5px;
+    font-size: 12px;
+  }
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
+    margin-right: 1.5vw;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 427px) {
+  .text,
+  .copyright {
+    font-size: 12px;
+  }
+  .headingm {
+    padding-top: 6vh;
+  }
+  .card {
+    width: 43.4vw;
+    margin-bottom: 2vh;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .secondary_text {
+    font-size: 20px;
+  }
+  .layout {
+    font-size: 16px;
+  }
+  .m2,
+  .m3,
+  .m4 {
+    margin-top: 3.3px;
+    font-size: 12px;
+  }
+  .project_name {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 20px;
+  }
+  .c1,
+  .c3,
+  .c5,
+  .c7,
+  .c9 {
+    margin-right: 3.2vw;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
+  }
+}
+@media screen and (max-width: 426px) {
+  .text,
+  .copyright {
+    font-size: 10px;
+  }
+  .m {
+    font-size: 13px;
+    clear: both;
+    margin-top: 0;
+    margin: auto;
+  }
+  .card {
+    width: 100%;
+  }
+  .heading {
+    font-size: 27px;
+    width: fit-content;
+  }
+  .secondary_text {
+    font-size: 15px;
+  }
+  .hr2 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .copyright {
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+  }
+  .box {
+    overflow: hidden;
+  }
+  .project_name {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 15px;
+  }
+  .layout {
+    font-size: 16px;
+    margin-bottom: 1.5vh;
+  }
+  .m2,
+  .m3 {
+    margin-bottom: 1.5vh;
+  }
+  .headingm {
+    padding-top: 3vh;
+  }
+  .header {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+.items {
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
