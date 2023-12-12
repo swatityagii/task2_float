@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 html,
@@ -9,7 +9,7 @@ body {
   height: 100%;
   width: 100%;
 }
-.header{
+.header {
   background-color: black;
   color: grey;
   width: 100%;
@@ -17,23 +17,7 @@ body {
   padding-bottom: 2vh;
   padding-left: 5vw;
 }
-.layout{
-  float: left;
-  margin-right: 2vw;
-}
-.m1{
-  float: left;
-  margin-right: 2vw;
-}
-.m2{
-  float: left;
-  margin-right: 2vw;
-}
-.m3{
-  float: left;
-  margin-right: 2vw;
-}
-img{
+img {
   width: 100%;
 }
 .card {
@@ -96,7 +80,7 @@ img{
   float: left;
 }
 
-.hr2{
+.hr2 {
   clear: both;
 }
 @media screen and (min-width: 1801px) and (max-width: 2560px) {
@@ -126,12 +110,35 @@ img{
   .card {
     width: 29vw;
   }
-  .c1,.c2,.c4,.c5,.c7,.c8{
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
     margin-right: 1.5vw;
   }
-  .m2,.m3,.m4 {
-    margin-top:4px;
+  .m2,
+  .m3,
+  .m4 {
+    margin-top: 4px;
     font-size: 19px;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
   }
 }
 @media screen and (min-width: 1440px) and (max-width: 1800px) {
@@ -164,12 +171,35 @@ img{
   .heading {
     font-size: 37px;
   }
-  .m2,.m3,.m4 {
-    margin-top:5px;
+  .m2,
+  .m3,
+  .m4 {
+    margin-top: 5px;
     font-size: 15px;
   }
-  .c1,.c2,.c4,.c5,.c7,.c8{
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
     margin-right: 1.5vw;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -195,12 +225,35 @@ img{
   .secondary_text {
     font-size: 22px;
   }
-  .m2,.m3,.m4 {
+  .m2,
+  .m3,
+  .m4 {
     margin-top: 4px;
     font-size: 13px;
   }
-  .c1,.c2,.c4,.c5,.c7,.c8{
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
     margin-right: 1.5vw;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1024px) {
@@ -226,15 +279,38 @@ img{
   .project_name {
     font-size: 20px;
   }
-  .m2,.m3,.m4 {
+  .m2,
+  .m3,
+  .m4 {
     margin-top: 3.5px;
     font-size: 12px;
   }
-  .c1,.c2,.c4,.c5,.c7,.c8{
+  .c1,
+  .c2,
+  .c4,
+  .c5,
+  .c7,
+  .c8 {
     margin-right: 1.5vw;
   }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
+  }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) and (min-width: 427px) {
   .text,
   .copyright {
     font-size: 12px;
@@ -255,7 +331,9 @@ img{
   .layout {
     font-size: 16px;
   }
-  .m2,.m3,.m4 {
+  .m2,
+  .m3,
+  .m4 {
     margin-top: 3.3px;
     font-size: 12px;
   }
@@ -264,8 +342,28 @@ img{
     margin-bottom: 1vh;
     font-size: 20px;
   }
-  .c1,.c3,.c5,.c7,.c9 {
-    margin-right: 3.2vw
+  .c1,
+  .c3,
+  .c5,
+  .c7,
+  .c9 {
+    margin-right: 3.2vw;
+  }
+  .layout {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m1 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m2 {
+    float: left;
+    margin-right: 2vw;
+  }
+  .m3 {
+    float: left;
+    margin-right: 2vw;
   }
 }
 @media screen and (max-width: 426px) {
@@ -276,8 +374,8 @@ img{
   .m {
     font-size: 13px;
     clear: both;
-    margin-left: 43vw;
     margin-top: 0;
+    margin: auto;
   }
   .card {
     width: 100%;
@@ -297,7 +395,7 @@ img{
     padding-top: 3vh;
     padding-bottom: 4vh;
   }
-  .box{
+  .box {
     overflow: hidden;
   }
   .project_name {
@@ -307,16 +405,23 @@ img{
   }
   .layout {
     font-size: 16px;
-    clear: both;
     margin-bottom: 1.5vh;
   }
-  .m2,.m3{
+  .m2,
+  .m3 {
     margin-bottom: 1.5vh;
   }
   .headingm {
     padding-top: 3vh;
   }
-  .header{
+  .header {
     padding-left: 0;
+    width: 100%;
+    text-align: center;
   }
+}
+.items {
+  height: 20px;
+  width: 20px;
+  margin: auto;
 }
