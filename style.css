@@ -277,6 +277,7 @@ img{
     font-size: 13px;
     clear: both;
     margin-left: 43vw;
+    margin-top: 0;
   }
   .card {
     width: 100%;
@@ -307,9 +308,13 @@ img{
   .layout {
     font-size: 16px;
     clear: both;
+    margin-bottom: 1.5vh;
+  }
+  .m2,.m3{
+    margin-bottom: 1.5vh;
   }
   .headingm {
-    padding-top: 5vh;
+    padding-top: 3vh;
   }
   .header{
     padding-left: 0;
